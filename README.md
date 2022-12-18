@@ -1,16 +1,17 @@
-# 🧰 Simple TypeScript Starter | 2022
-
-> We talk about a lot of **advanced Node.js and TypeScript** concepts on [the blog](https://khalilstemmler.com), particularly focused around Domain-Driven Design and large-scale enterprise application patterns. However, I received a few emails from readers that were interested in seeing what a basic TypeScript starter project looks like. So I've put together just that.
+# A basic Apollo Server for testing purposes | 2022
+###### A project based on https://github.com/stemmlerjs/simple-typescript-starter
 
 ### Features
 
 - Minimal
 - TypeScript v4
+- Apollo Server v4.2.2
 - Testing with Jest
 - Linting with Eslint and Prettier
 - Pre-commit hooks with Husky
 - VS Code debugger scripts
 - Local development with Nodemon
+- Codegen
 
 ### Scripts
 
@@ -32,7 +33,7 @@ Runs the `jest` tests once.
 
 #### `npm run test:dev`
 
-Run the `jest` tests in watch mode, waiting for file changes.
+Runs the `jest` tests in watch mode, waiting for file changes.
 
 #### `npm run prettier-format`
 
@@ -41,3 +42,7 @@ Format your code.
 #### `npm run prettier-watch`
 
 Format your code in watch mode, waiting for file changes.
+
+#### `npm run codegen`
+
+Generate types from GraphQl schema.

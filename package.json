@@ -1,8 +1,9 @@
 {
-  "name": "Apollo Server mock",
-  "version": "1.0.0",
+  "name": "apollo-server-mock",
+  "version": "0.0.1",
   "description": "A basic Apollo Server",
   "main": "index.js",
+  "author": "Nahuel Valentini",
   "scripts": {
     "build": "rimraf ./build && tsc",
     "start:dev": "npm run codegen && npx nodemon",
@@ -26,7 +27,6 @@
     }
   },
   "keywords": [],
-  "author": "",
   "license": "ISC",
   "devDependencies": {
     "@graphql-codegen/cli": "2.16.1",
