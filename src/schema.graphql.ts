@@ -3,7 +3,6 @@ export const typeDefs = `#graphql
     productId: ID!
     price: Int!
     date: Date!
-    saleCode: ID!
   }
 
   type Product {
@@ -17,7 +16,6 @@ export const typeDefs = `#graphql
     productId: ID!
     price: Int!
     date: Date!
-    saleCode: ID!
     vendorId: ID!
   }
 
@@ -25,7 +23,6 @@ export const typeDefs = `#graphql
     productId: ID!
     price: Int!
     date: Date!
-    saleCode: ID!
     clientId: String
   }
 

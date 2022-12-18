@@ -62,7 +62,7 @@ export const returnedProducts = [
     price: 2500,
     vendorId: '3',
     date: new Date('2020-07-30'),
-    saleCode: '123',
+    clientId: '1',
   },
   {
     id: '324231',
@@ -70,7 +70,7 @@ export const returnedProducts = [
     price: 5000,
     vendorId: '1',
     date: new Date('2020-07-28'),
-    saleCode: '123',
+    clientId: '2',
   },
 ];
 
@@ -81,7 +81,6 @@ export const sales = [
     price: 2500,
     vendorId: '3',
     date: new Date('2020-07-30'),
-    saleCode: '123b',
   },
   {
     id: '2400000',
@@ -89,7 +88,6 @@ export const sales = [
     price: 2500,
     vendorId: '1',
     date: new Date('2020-07-30'),
-    saleCode: '123a',
   },
   {
     id: '324231',
@@ -97,7 +95,6 @@ export const sales = [
     price: 5000,
     vendorId: '1',
     date: new Date('2020-07-28'),
-    saleCode: '123c',
   },
   {
     id: '3223',
@@ -105,7 +102,6 @@ export const sales = [
     price: 2050,
     vendorId: '2',
     date: new Date('2020-07-28'),
-    saleCode: '123d',
   },
   {
     id: '3343',
@@ -113,7 +109,6 @@ export const sales = [
     price: 2000,
     vendorId: '3',
     date: new Date('2020-07-30'),
-    saleCode: '123e',
   },
   {
     id: '324243',
@@ -121,7 +116,6 @@ export const sales = [
     price: 50,
     vendorId: '2',
     date: new Date('2020-07-28'),
-    saleCode: '123f',
   },
   {
     id: '32230',
@@ -129,7 +123,6 @@ export const sales = [
     price: 1050,
     vendorId: '3',
     date: new Date('2020-07-28'),
-    saleCode: '123g',
   },
   {
     id: '12450',
@@ -137,6 +130,5 @@ export const sales = [
     price: 1000,
     vendorId: '3',
     date: new Date('2020-07-28'),
-    saleCode: '123h',
   },
 ];
